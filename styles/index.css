@@ -2,3 +2,17 @@ body {
   color: #a6d9cf;
   background-color: #2e3836;
 }
+
+.lc-img {
+  border-radius: 32px;
+  height: 3rem;
+  padding: 0.25rem;
+  background-color: darkgray;
+}
+
+.github-img {
+  border-radius: 32px;
+  height: 3rem;
+  padding: 0.25rem;
+  background-color: white;
+}

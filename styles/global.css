@@ -1,3 +1,18 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
 a {
+  width: fit-content;
   color: white;
+}
+
+button {
+  width: fit-content;
+  padding: 0.25rem;
+  border: 0;
+  border-radius: 4px;
 }
