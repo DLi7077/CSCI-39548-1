@@ -11,13 +11,20 @@
   </head>
   <body>
     <h1>You are at index.html</h1>
-    <div>Image here</div>
-    <div>My Favorite leetcode questions below:</div>
-    <a href="a.html"> <img class="lc-img" src="assets/lc-logo.png" /></a>
-    <div>Some Projects I made</div>
-    <a href="a.html">
-      <img class="github-img" src="assets/github-logo.png"
-    /></a>
+
+    <div class="link-container">
+      <div class="link-part">
+        <h3>Some leetcode questions</h3>
+        <a href="a.html"> <img class="lc-img" src="assets/lc-logo.png" /></a>
+      </div>
+
+      <div class="link-part">
+        <h3>Some projects I made</h3>
+        <a href="a.html">
+          <img class="github-img" src="assets/github-logo.png"
+        /></a>
+      </div>
+    </div>
 
     <button id="colorChangeButton" onclick='handleButtonClick("white","pink")'>
       Toggle Text Color

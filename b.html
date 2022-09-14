@@ -10,15 +10,17 @@
     <script src="utils.js"></script>
   </head>
   <body>
-    <h1>You are at b.html</h1>
-    <div>Image here</div>
-    <div>
-      Link to page Index
-      <a href="index.html">here</a>
-    </div>
-    <div>
-      Link to page A
-      <a href="a.html">here</a>
+    <h1>Some Projects I Made</h1>
+    <div class="link-container">
+      <div class="link-part">
+        <h3>Back to Index.html</h3>
+        <a href="index.html"> <img class="home-img" src="assets/home.png" /></a>
+      </div>
+
+      <div class="link-part">
+        <h3>Some Leetcode questions</h3>
+        <a href="a.html"> <img class="lc-img" src="assets/lc-logo.png" /></a>
+      </div>
     </div>
     <button id="colorChangeButton" onclick='handleButtonClick("white","pink")'>
       Toggle Text Color
