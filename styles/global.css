@@ -52,3 +52,20 @@ button {
   padding: 0.25rem;
   background-color: white;
 }
+
+tr {
+  padding: 2px;
+}
+td {
+  color: white;
+}
+
+.easy {
+  color: green;
+}
+.medium {
+  color: orange;
+}
+.hard {
+  color: red;
+}
