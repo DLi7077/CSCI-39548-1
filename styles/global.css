@@ -4,6 +4,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   gap: 1rem;
+  margin-inline: 2rem;
 }
 
 a {
